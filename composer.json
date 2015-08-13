@@ -1,0 +1,22 @@
+{
+    "name": "megumi/wp-oauth",
+    "license": "GPL2",
+    "require": {
+        "php": ">=5.3"
+    },
+    "authors": [
+        {
+            "name": "Takayuki Miyauchi",
+            "email": "miyauchi@digitalcube.jp"
+        }
+    ],
+    "require": {
+        "opauth/opauth": "0.4.4",
+        "opauth/facebook": "0.2.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "Megumi": "lib/"
+        }
+    }
+}
